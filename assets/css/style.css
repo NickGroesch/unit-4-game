@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../images/dynamic-style.png");
+}
+#title {
+  font-weight: bold;
+  font-size: 20px;
+  width: 180px;
+  background: orange;
+  padding: 14px;
+  margin: 12px;
+  text-align: center;
+}
+#info {
+  margin: 10px;
+}
+p {
+  font-size: 10px;
+  width: 300px;
+  padding: 10px;
+  border: none;
+  background: teal;
+  color: burlywood;
+}
+.row {
+  margin: 10px;
+  height: 60px;
+}
+.target {
+  font-size: 20px;
+  padding: 0px 20px 20px 20px;
+  height: 60px;
+  width: 100px;
+  background: gray;
+  color: red;
+}
+#target {
+  width: 40px;
+  left: 60px;
+}
+#yourscore {
+  margin: 10px;
+  font-size: 20px;
+  padding: 0px 20px 20px 20px;
+  height: 80px;
+  width: 120px;
+  background: green;
+  color: beige;
+}
+.crystals {
+  margin: 10px;
+}
+.crystalPic {
+  width: 80px;
+  height: 80px;
+}

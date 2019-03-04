@@ -14,7 +14,7 @@ In this assignment, you'll create another fun and interactive game for web brows
 
 ### Before You Begin
 
-1. Create a new GitHub repo called `unit-4-game`, then clone it to your computer.
+<!-- 1. Create a new GitHub repo called `unit-4-game`, then clone it to your computer.
 
 2. Inside the `unit-4-game` folder, create an `index.html` file.
 
@@ -30,7 +30,7 @@ In this assignment, you'll create another fun and interactive game for web brows
 
 5. Push the above changes to GitHub.
 
-6. Choose whichever game you want to make from the choices below. The CrystalsCollector game is the recommended option, but if you are looking for an extra hard challenge then take a stab at the Star Wars exercise. (Note: Only choose the Star Wars Exercise if you are feeling very comfortable with the material covered in class. The Crystal Collector activity is plenty challenging enough!).
+6. Choose whichever game you want to make from the choices below. The CrystalsCollector game is the recommended option, but if you are looking for an extra hard challenge then take a stab at the Star Wars exercise. (Note: Only choose the Star Wars Exercise if you are feeling very comfortable with the material covered in class. The Crystal Collector activity is plenty challenging enough!). -->
 
 ### Option One: CrystalsCollector Game (Recommended)
 
@@ -42,7 +42,7 @@ In this assignment, you'll create another fun and interactive game for web brows
 
 3. Here's how the app works:
 
-   - There will be four crystals displayed as buttons on the page.
+   <!-- - There will be four crystals displayed as buttons on the page. -->
 
    - The player will be shown a random number at the start of the game.
 
