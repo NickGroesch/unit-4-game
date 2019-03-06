@@ -29,12 +29,10 @@ $(document).ready(function() {
     $("#score").text(total);
     console.log("you clicked crystal", this.id, ";", total);
     if (total == target) {
-      //   alert("you win");
       $("#feedback").text("You Win!");
       wins++;
       reset();
     } else if (total >= target) {
-      // alert("you lose");
       $("#feedback").text("You Lose!");
       losses++;
       reset();
