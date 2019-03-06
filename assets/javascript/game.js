@@ -27,7 +27,6 @@ $(document).ready(function() {
     morePoints = parseInt($(this).attr("data-points"));
     total += morePoints;
     $("#score").text(total);
-    console.log("you clicked crystal", this.id, ";", total);
     if (total == target) {
       $("#feedback").text("You Win!");
       wins++;
