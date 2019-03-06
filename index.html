@@ -7,27 +7,69 @@
     <title>Crystal-Game</title>
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./assets/javascript/game.js"></script>
   </head>
   <body>
-      <h1 id="title">CrystalsCollector</h1>
-      <div id="info">
-          <p>You are given a random number at the game's beginning</p>
-        <p>Each of the four crystals adds a constant but unknown number of points to your total score.</p>
-        <p>Win by matching your total score to the random number. If you exceed the target, you bust and lose.</p>
-        <p>Clicking on the crystal will allow you to deduce its value.</p>
-        <p>Each time the game restarts, the value of each crystal will be reassigned.</p>
-        <p>N.B.: There are unwinnable games depending on the values randomly assigned to the crystals... So maybe it's not your fault.</p>
+    <h1 id="title">CrystalsCollector</h1>
+    <div id="info">
+      <p>You are given a random number at the game's beginning</p>
+      <p>
+        Each of the four crystals adds a constant but unknown number of points
+        to your total score.
+      </p>
+      <p>
+        Win by matching your total score to the random number. If you exceed the
+        target, you bust and lose.
+      </p>
+      <p>Clicking on the crystal will allow you to deduce its value.</p>
+      <p>
+        Each time the game restarts, the value of each crystal will be
+        reassigned.
+      </p>
+      <p>
+        N.B.: There are unwinnable games depending on the values randomly
+        assigned to the crystals... So maybe it's not your fault.
+      </p>
+    </div>
+    <div class="row">
+      <span class="target"
+        >Target:
+        <span id="target">xxx</span>
+      </span>
+      <div id="winloss">
+        <span id="feedback">Try It!</span>
+        <br />
+        Wins:<span id="wins"></span>
+        <br />
+        Losses:<span id="losses"></span>
       </div>
-      <div class="row"><span class="target">Target: <span id="target">xxx</span>
-      </span><span id="winloss"><span id="wins"></span><br><span id="losses"></span></span></div>
-      <div class="crystals">
-        <img src="./assets/images/Peridot-crystals.jpg" id="c0" class="crystalPic">
-        <img src="./assets/images/_absolutely_free_photos_original_photos_purple-rock-crystal-5225x3484_25364.jpg" id="c1" class="crystalPic">
-        <img src="./assets/images/crystals-2961285770979xlqM.jpg" id="c2" class="crystalPic">
-        <img src="./assets/images/ijskristallen-textuur.jpg" id="c3" class="crystalPic">
-      </div>
-      <div id="yourscore">Your total so far:<span id="score"></far:span></div>
+    </div>
+    <div class="crystals">
+      <img
+        src="./assets/images/Peridot-crystals.jpg"
+        id="c0"
+        class="crystalPic"
+      />
+      <img
+        src="./assets/images/_absolutely_free_photos_original_photos_purple-rock-crystal-5225x3484_25364.jpg"
+        id="c1"
+        class="crystalPic"
+      />
+      <img
+        src="./assets/images/crystals-2961285770979xlqM.jpg"
+        id="c2"
+        class="crystalPic"
+      />
+      <img
+        src="./assets/images/ijskristallen-textuur.jpg"
+        id="c3"
+        class="crystalPic"
+      />
+    </div>
+    <div id="yourscore">
+      Your total so far:<br />
+      <span id="score"></span>
+    </div>
   </body>
 </html>

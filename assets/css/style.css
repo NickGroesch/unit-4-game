@@ -26,13 +26,17 @@ p {
 }
 .row {
   margin: 10px;
-  height: 60px;
+  height: 80px;
+  position: relative;
 }
 .target {
+  position: absolute;
+  top: 0px;
+  display: inline-block;
   font-size: 20px;
-  padding: 0px 20px 20px 20px;
-  height: 60px;
-  width: 100px;
+  padding: 20px;
+  height: 80px;
+  width: 140px;
   background: gray;
   color: red;
 }
@@ -40,12 +44,25 @@ p {
   width: 40px;
   left: 60px;
 }
+#winloss {
+  position: absolute;
+  top: 0px;
+  left: 160px;
+  text-align: center;
+  padding: 20px;
+  display: inline-block;
+  background: purple;
+  color: goldenrod;
+  /* margin: px; */
+  height: 80px;
+  width: 140px;
+}
 #yourscore {
   margin: 10px;
   font-size: 20px;
   padding: 0px 20px 20px 20px;
   height: 80px;
-  width: 120px;
+  width: 100px;
   background: green;
   color: beige;
 }

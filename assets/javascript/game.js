@@ -1,4 +1,7 @@
 $(document).ready(function() {
+  var wins = 0;
+  var losses = 0;
+
   var total;
   var target;
   function reset() {
@@ -12,11 +15,13 @@ $(document).ready(function() {
     $("#c2").attr("data-points", c2);
     var c3 = Math.ceil(Math.random() * 12);
     $("#c3").attr("data-points", c3);
+    $("#target").text(target);
+    $("#score").text(total);
+    $("#wins").text(wins);
+    $("#losses").text(losses);
   }
 
   reset();
-  $("#target").text(target);
-  $("#score").text(total);
 
   $(".crystalPic").on("click", function() {
     morePoints = parseInt($(this).attr("data-points"));
@@ -24,9 +29,15 @@ $(document).ready(function() {
     $("#score").text(total);
     console.log("you clicked crystal", this.id, ";", total);
     if (total == target) {
-      alert("you win");
+      //   alert("you win");
+      $("#feedback").text("You Win!");
+      wins++;
+      reset();
     } else if (total >= target) {
-      alert("you lose");
+      // alert("you lose");
+      $("#feedback").text("You Lose!");
+      losses++;
+      reset();
     }
   });
 });
